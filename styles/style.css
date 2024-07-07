@@ -4,8 +4,14 @@ body{
 }
 
 /* shared style */
+
 .text-primary{
     color:rgb(253, 110, 10);
+}
+.dark-1{
+    color: rgb(24,24,24);
+    font-weight: 700;
+    font-size: 20px;
 }
 .dark-2{
     color: rgb(71, 71, 71);
@@ -13,6 +19,11 @@ body{
 }
 .dark-3{
     color:rgb(117, 117, 117);
+}
+.dark-4{
+ font-size: 20px;
+ font-weight: 700;
+ color: rgb(71, 71, 71);
 }
 .btn-primary{
     background-color:rgb(253, 110, 10);
@@ -33,6 +44,18 @@ body{
     font-weight: 700;
     line-height: 27px;
     padding: 18px 35px;  
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
+}
+.bg-2{
+    background-color: rgb(255, 248, 243);
 }
 
 /* nav style */
@@ -82,4 +105,91 @@ nav li a{
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+}
+/* main */
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.about{
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+
+}
+.about-div{
+    display: flex;
+    gap: 40px;
+    
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 2px solid black; */
+}
+/* skill */
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+   gap: 24px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.icons{
+ display: flex;
+ gap: 15px;
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 50px;
+    
+}
+.resume-col-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71,71,71);
+}
+.experience-title{
+    font-size:25px ;
+    font-weight: 700;
+    color: rgb(71,71,71);
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+}
+.experince-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+.cv-btn{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background: rgb(255, 248, 243);
+    padding: 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    /* border: 2px solid black; */
+}
+.input{
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
 }
