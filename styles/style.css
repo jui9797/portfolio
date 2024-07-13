@@ -193,3 +193,67 @@ background: rgb(255, 255, 255);
     margin-bottom: 10px;
     border: none;
 }
+
+.btn-container{
+    display: flex;
+    gap: 10px;
+}
+/* responsive layout */
+@media screen and (max-width:576px) {
+    /* nav style */
+    nav{
+        margin: 10px;
+    }
+    .btn-primary, .btn-scondary{
+        padding:5px 5px;
+        border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    /* width: 80px; */
+    }
+    .btn-container{
+        display: flex;
+        gap: 10px;
+    }
+
+    .header{
+        background-image: none;
+    }
+    .banner, .resume-container, .footer{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-content{
+        width: 400px;
+    }
+    .banner-greetting{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    
+    .banner img{
+        width: 400px;
+    }
+    .about{
+        text-align: center;
+        padding: 30px ;
+        margin-top: 80px;
+    
+    }
+    .about-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        align-items: center;
+        
+    }
+    .footer{
+        padding: 30px;
+    }
+}
+
+
